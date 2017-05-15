@@ -30,7 +30,7 @@
                 let hasNextPage = object.hasNextPage
                 if(!hasNextPage){
                     btn.disabled = true
-                    btn.value="没有下一页"
+                    btn.innerText='没有下一页'
                 }
                 let array = object.items
                 array.forEach(function(item, index){
